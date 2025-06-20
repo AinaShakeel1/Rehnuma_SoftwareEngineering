@@ -1,0 +1,66 @@
+{
+  "name": "project-milestone-3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "StartRehnuma": "concurrently \"cd Rehnuma-backend && node server.js\" \"npm run dev\"",
+    "ScrapeData": "cd Rehnuma-backend && python DataScrapper.py",
+    "UpdateDatabase": "cd Rehnuma-backend && node admin.js"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "framer-motion": "^12.5.0",
+    "fuse.js": "^7.1.0",
+    "geolib": "^3.3.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^7.3.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "nodemon": "^3.1.9",
+    "vite": "^6.2.0"
+  },
+  "description": "Our platform will revolutionize the grocery shopping experience by leveraging technology tohelp consumers save money through intelligent shopping routes across multiple supermarkets. The application will provide an interface where users can input their grocery lists and receive optimized shopping plans that consider both product prices across different stores and transportation costs by finding the best combination of supermarkets nearby to purchase these items at the lowest total cost. The app will act as a guide for users by generating an optimized itinerary, helping them shop efficiently while minimizing costs. Hence, the name \"Rehnuma\" signifies its role in providing smart and strategic shopping directions.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr07882/RehnumaApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr07882/RehnumaApp/issues"
+  },
+  "homepage": "https://github.com/mr07882/RehnumaApp#readme"
+}
